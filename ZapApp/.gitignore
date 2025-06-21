@@ -1,0 +1,54 @@
+# Ignore bin and obj folders (build output)
+bin/
+obj/
+.vs/
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Build results
+*.dll
+*.exe
+*.apk
+*.aab
+*.app
+*.pdb
+
+# MAUI-specific
+**/Resources/Raw/*
+**/Platforms/**/bin/
+**/Platforms/**/obj/
+
+# VS for Mac
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore SQLite or temporary data files
+*.db
+*.db-shm
+*.db-wal
+
+# Ignore logs and temp
+*.log
+*.tmp
+
+# Ignore sensitive or generated files
+secrets.json
+*.json
+
+# Optional: ignore PDFs or imagens geradas
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Optional: ignore packages and NuGet stuff
+packages/
+*.nupkg
+*.snupkg

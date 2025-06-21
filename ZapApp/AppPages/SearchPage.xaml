@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZapApp.AppPages.SearchPage"
+             Title="Buscar CNS">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <!-- Campo para digitar o CNS -->
+        <Entry 
+            x:Name="EntryCns"
+            Placeholder="Digite o CNS para buscar" 
+            Keyboard="Numeric"/>
+
+        <!-- Botão para buscar -->
+        <Button 
+            Text="Pesquisar"
+            Clicked="OnPesquisarClicked"/>
+
+        <!-- Lista de resultados -->
+        <CollectionView x:Name="ResultadosCollection">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="Gray" Padding="10" Margin="5">
+                        <Label Text="{Binding}" LineBreakMode="WordWrap"/>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

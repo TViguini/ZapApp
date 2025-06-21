@@ -1,0 +1,14 @@
+2025/06/20-15:07:10.295 3904 Reusing MANIFEST D:\pdf\ZapApp\ZapApp\UserData\Default\Local Storage\leveldb/MANIFEST-000001
+2025/06/20-15:07:10.301 3904 Recovering log #318
+2025/06/20-15:07:10.301 3904 Level-0 table #321: started
+2025/06/20-15:07:10.303 3904 Level-0 table #321: 16534 bytes OK
+2025/06/20-15:07:10.305 3904 Delete type=0 #318
+2025/06/20-15:07:10.306 2db0 Compacting 4@0 + 1@1 files
+2025/06/20-15:07:10.340 2db0 Generated table #323@0: 87712 keys, 2042370 bytes
+2025/06/20-15:07:10.340 2db0 Compacted 4@0 + 1@1 files => 2042370 bytes
+2025/06/20-15:07:10.340 2db0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/20-15:07:10.341 2db0 Delete type=2 #310
+2025/06/20-15:07:10.341 2db0 Delete type=2 #312
+2025/06/20-15:07:10.341 2db0 Delete type=2 #315
+2025/06/20-15:07:10.342 2db0 Delete type=2 #319
+2025/06/20-15:07:10.342 2db0 Delete type=2 #321

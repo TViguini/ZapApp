@@ -1,0 +1,23 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZapApp.AppPages.ConfigPage">
+
+    <VerticalStackLayout Padding="20">
+        <HorizontalStackLayout Spacing="10">
+            <Button 
+            Text="Selecionar Pasta PDF"
+            Clicked="OnSelecionarPastaClicked" />
+
+            <Label 
+            x:Name="LabelCaminho"
+            Text="Nenhuma pasta selecionada"
+            VerticalOptions="Center"
+            LineBreakMode="TailTruncation"
+            WidthRequest="200"/>
+        </HorizontalStackLayout>
+        <Button 
+            Text="Retornar"
+            Clicked="OnReturnClicked"
+            Margin="0,20,0,0"/>
+    </VerticalStackLayout>
+</ContentPage>
