@@ -8,18 +8,15 @@
     Title="ZapApp">
 
     <ShellContent
-        Title="Home"
         ContentTemplate="{DataTemplate local:StartPage}"
         Route="StartPage" />
     
     <ShellContent
-    Title="Configuração"
-    ContentTemplate="{DataTemplate local:ConfigPage}"
-    Route="ConfigPage" />
+        ContentTemplate="{DataTemplate local:ConfigPage}"
+        Route="ConfigPage" />
 
     <ShellContent
- Title="SearchPage"
- ContentTemplate="{DataTemplate local:SearchPage}"
- Route="SearchPage" />
+         ContentTemplate="{DataTemplate local:SearchPage}"
+         Route="SearchPage" />
 
 </Shell>

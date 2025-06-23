@@ -15,7 +15,7 @@ namespace ZapApp.AppResources
 
     public class ZapPMV
     {        
-        public string path_excel = "D:\\pdf\\Lista\\agendamento_outros.xlsx";
+        public string path_excel = "D:\\pdf\\Lista\\agendamento.xlsx";
         public string path_txt = "D:\\pdf\\Lista\\erro_" + DateTime.Now.ToString("yyyy-MM-dd") + "_.txt";
         public string path_pdf = "D:\\pdf\\pdf";
         public bool control_pc = false;

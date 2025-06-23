@@ -7,13 +7,12 @@ namespace ZapApp.AppPages;
 public partial class StartPage : ContentPage
 {
     IWebDriver? driver;
-    string userDataDir = "D:\\pdf\\ZapApp\\ZapApp\\UserData";
     string userZapdatadir = Path.Combine(AppContext.BaseDirectory, "UserData");
     public StartPage()
 	{
 		InitializeComponent();
 	}
-    private void OnCounterClicked(object sender, EventArgs e)
+    private void OnZapExcelClicked(object sender, EventArgs e)
     {
         var options = new EdgeOptions();
         options.AddArgument($"--user-data-dir={userZapdatadir}");
@@ -40,5 +39,21 @@ public partial class StartPage : ContentPage
     {
         AppShell.InitializeRoute();
         Shell.Current.GoToAsync("SearchPage");
+    }
+
+    private async void OnRememberClicked(object sender, EventArgs e)
+    {
+        var options = new EdgeOptions();
+        options.AddArgument($"--user-data-dir={userZapdatadir}");
+        options.AddArgument("--profile-directory=Default");
+
+        driver = new EdgeDriver(options);
+        ZapPMV_Rem zapPMV_Rem = new ZapPMV_Rem();
+        int registros = await zapPMV_Rem.List_DB(driver);
+
+       if (registros == 0)
+       {
+            await DisplayAlert("ZapPMV", $"Nenhum registro encontrado!", "OK");
+       }
     }
 }

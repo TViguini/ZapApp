@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "D:\\pdf\\ZapApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\appresources\\bancodados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\appresources\\bancodados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\appresources\\zappmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\appresources\\zappmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\appresources\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\appresources\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\appresources\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\appresources\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\appresources\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\appresources\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\apppages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\apppages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\apppages\\startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\apppages\\startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\appresources\\zappmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\appresources\\zappmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\appresources\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\appresources\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\apppages\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\apppages\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\appresources\\bancodados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\appresources\\bancodados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\apppages\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\apppages\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|d:\\pdf\\zapapp\\zapapp\\appresources\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0795024-46B6-45F6-BD78-32B5F04C7B5C}|ZapApp\\ZapApp.csproj|solutionrelative:zapapp\\appresources\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +46,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ZapApp\\App.xaml.cs",
+              "ToolTip": "D:\\pdf\\ZapApp\\ZapApp\\App.xaml.cs",
+              "RelativeToolTip": "ZapApp\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:06:04.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\App.xaml",
+              "RelativeDocumentMoniker": "ZapApp\\App.xaml",
+              "ToolTip": "D:\\pdf\\ZapApp\\ZapApp\\App.xaml",
+              "RelativeToolTip": "ZapApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-23T13:06:02.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "ZapApp\\AppShell.xaml",
+              "ToolTip": "D:\\pdf\\ZapApp\\ZapApp\\AppShell.xaml",
+              "RelativeToolTip": "ZapApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-23T13:06:00.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\AppResources\\Permission.cs",
+              "RelativeDocumentMoniker": "ZapApp\\AppResources\\Permission.cs",
+              "ToolTip": "D:\\pdf\\ZapApp\\ZapApp\\AppResources\\Permission.cs",
+              "RelativeToolTip": "ZapApp\\AppResources\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T12:59:10.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StartPage.xaml.cs",
+              "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\AppPages\\StartPage.xaml.cs",
+              "RelativeDocumentMoniker": "ZapApp\\AppPages\\StartPage.xaml.cs",
+              "ToolTip": "D:\\pdf\\ZapApp\\ZapApp\\AppPages\\StartPage.xaml.cs",
+              "RelativeToolTip": "ZapApp\\AppPages\\StartPage.xaml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T12:19:14.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Registro.cs",
               "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\AppResources\\Registro.cs",
               "RelativeDocumentMoniker": "ZapApp\\AppResources\\Registro.cs",
@@ -59,20 +128,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "BancoDados.cs",
               "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\AppResources\\BancoDados.cs",
               "RelativeDocumentMoniker": "ZapApp\\AppResources\\BancoDados.cs",
               "ToolTip": "D:\\pdf\\ZapApp\\ZapApp\\AppResources\\BancoDados.cs",
               "RelativeToolTip": "ZapApp\\AppResources\\BancoDados.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwFYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T12:34:28.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\AppResources\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ZapApp\\AppResources\\AppDbContext.cs",
@@ -85,67 +154,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ZapPMV.cs",
               "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\AppResources\\ZapPMV.cs",
               "RelativeDocumentMoniker": "ZapApp\\AppResources\\ZapPMV.cs",
               "ToolTip": "D:\\pdf\\ZapApp\\ZapApp\\AppResources\\ZapPMV.cs",
               "RelativeToolTip": "ZapApp\\AppResources\\ZapPMV.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAABYAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T12:25:09.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StartPage.xaml.cs",
-              "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\AppPages\\StartPage.xaml.cs",
-              "RelativeDocumentMoniker": "ZapApp\\AppPages\\StartPage.xaml.cs",
-              "ToolTip": "D:\\pdf\\ZapApp\\ZapApp\\AppPages\\StartPage.xaml.cs",
-              "RelativeToolTip": "ZapApp\\AppPages\\StartPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T12:19:14.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SearchPage.xaml.cs",
-              "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\AppPages\\SearchPage.xaml.cs",
-              "RelativeDocumentMoniker": "ZapApp\\AppPages\\SearchPage.xaml.cs",
-              "ToolTip": "D:\\pdf\\ZapApp\\ZapApp\\AppPages\\SearchPage.xaml.cs",
-              "RelativeToolTip": "ZapApp\\AppPages\\SearchPage.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T12:15:03.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SearchPage.xaml",
-              "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\AppPages\\SearchPage.xaml",
-              "RelativeDocumentMoniker": "ZapApp\\AppPages\\SearchPage.xaml",
-              "ToolTip": "D:\\pdf\\ZapApp\\ZapApp\\AppPages\\SearchPage.xaml",
-              "RelativeToolTip": "ZapApp\\AppPages\\SearchPage.xaml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAD4vxcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-21T12:08:07.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StartPage.xaml",
-              "DocumentMoniker": "D:\\pdf\\ZapApp\\ZapApp\\AppPages\\StartPage.xaml",
-              "RelativeDocumentMoniker": "ZapApp\\AppPages\\StartPage.xaml",
-              "ToolTip": "D:\\pdf\\ZapApp\\ZapApp\\AppPages\\StartPage.xaml",
-              "RelativeToolTip": "ZapApp\\AppPages\\StartPage.xaml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-21T12:06:14.23Z",
               "EditorCaption": ""
             }
           ]
