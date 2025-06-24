@@ -1,4 +1,5 @@
 ﻿using ZapApp.AppResources;
+using ZapApp.AppPages;
 namespace ZapApp
 {
     public partial class App : Application
@@ -6,13 +7,10 @@ namespace ZapApp
         public App()
         {
             InitializeComponent();
+            MainPage = new AppShell(); // Sempre inicia com Shell
             VerificarPermissaoInicial();
         }
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
         private async void VerificarPermissaoInicial()
         {
             var permission = new Permission();
@@ -20,24 +18,14 @@ namespace ZapApp
 
             if (!permitido)
             {
-                // Exibe página de bloqueio personalizada ou alerta
-                MainPage = new ContentPage
-                {
-                    Content = new Label
-                    {
-                        Text = "O sistema está temporariamente bloqueado.",
-                        HorizontalOptions = LayoutOptions.Center,
-                        VerticalOptions = LayoutOptions.Center,
-                        FontSize = 18,
-                        TextColor = Colors.Red
-                    }
-                };
+                await Shell.Current.GoToAsync("//BloqueioPage"); // página dentro do Shell
             }
             else
             {
-                // Permissão OK → carregar a tela principal
-                MainPage = new AppPages.StartPage();
+                await Shell.Current.GoToAsync("//StartPage"); // página inicial dentro do Shell
             }
         }
     }
+
+
 }

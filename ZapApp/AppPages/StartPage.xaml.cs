@@ -8,6 +8,7 @@ public partial class StartPage : ContentPage
 {
     IWebDriver? driver;
     string userZapdatadir = Path.Combine(AppContext.BaseDirectory, "UserData");
+
     public StartPage()
 	{
 		InitializeComponent();
@@ -29,27 +30,21 @@ public partial class StartPage : ContentPage
         zapPMV.OpenExcelAsync(driver);
     }
 
-    private void OnConfigClicked(object sender, EventArgs e)
+    private async void OnConfigClicked(object sender, EventArgs e)
     {
-        AppShell.InitializeRoute();
-        Shell.Current.GoToAsync("ConfigPage");
+        await Shell.Current.GoToAsync("ConfigPage");
     }
 
-    private void OnSearchClicked(object sender, EventArgs e)
+    private async void OnSearchClicked(object sender, EventArgs e)
     {
-        AppShell.InitializeRoute();
-        Shell.Current.GoToAsync("SearchPage");
+        await Shell.Current.GoToAsync("SearchPage");
     }
 
     private async void OnRememberClicked(object sender, EventArgs e)
     {
-        var options = new EdgeOptions();
-        options.AddArgument($"--user-data-dir={userZapdatadir}");
-        options.AddArgument("--profile-directory=Default");
-
-        driver = new EdgeDriver(options);
+        using var db = new AppDbContext();
         ZapPMV_Rem zapPMV_Rem = new ZapPMV_Rem();
-        int registros = await zapPMV_Rem.List_DB(driver);
+        int registros = await zapPMV_Rem.List_DB_Num(db, userZapdatadir, driver);
 
        if (registros == 0)
        {

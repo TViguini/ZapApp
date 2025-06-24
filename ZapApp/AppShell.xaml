@@ -19,4 +19,8 @@
          ContentTemplate="{DataTemplate local:SearchPage}"
          Route="SearchPage" />
 
+    <ShellContent
+         ContentTemplate="{DataTemplate local:BloqueioPage}"
+         Route="BloqueioPage" />
+
 </Shell>

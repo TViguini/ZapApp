@@ -15,6 +15,7 @@ namespace ZapApp
             Routing.RegisterRoute("StartPage", typeof(StartPage));           
             Routing.RegisterRoute("ConfigPage", typeof(ConfigPage));
             Routing.RegisterRoute("SearchPage", typeof(SearchPage));
+            Routing.RegisterRoute("BloqueioPage", typeof(BloqueioPage));
         }
     }
 }
